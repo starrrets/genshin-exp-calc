@@ -1,0 +1,56 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    background: #25294a;
+}
+
+#grid-box {
+    background: #2d325a;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4fr 3rem 6rem;
+    grid-gap: 2rem;
+    place-self: center;
+    width: 60%;
+    height: 60%;
+    min-height: 600px;
+    min-width: 1000px;
+    padding: 2rem;
+}
+
+.exp-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#big {
+    background-image: url(../images/big.webp);
+}
+
+#medium {
+    background-image: url(../images/medium.webp);
+}
+
+#small {
+    background-image: url(../images/small.webp);
+}
+
+.exp-input {
+    background: #25294a;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+}
+
+#result {
+    grid-column: 1/4;
+    place-self: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+}
