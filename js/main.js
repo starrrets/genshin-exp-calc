@@ -16,3 +16,5 @@ const calcExp = () => {
 
     oResult.innerText = iBigExp + Math.floor((iMediumExp*5000 + iSmallExp*1000) / 20000);
 }
+
+window.onload = () => calcExp();
